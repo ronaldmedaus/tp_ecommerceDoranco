@@ -1,0 +1,16 @@
+main {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 4rem;
+}
+
+#product-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+#product-info >div >h1 {
+    color: #8C6B68;
+}
+

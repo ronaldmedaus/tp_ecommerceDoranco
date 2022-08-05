@@ -1,0 +1,44 @@
+body {
+    color: #141A26;
+}
+
+header {
+    margin-bottom: 4rem;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+header nav.navbar.navbar-expand-lg {
+    background-color:#395873 ;
+    padding: 1rem 3rem;
+    color: #A7BDD9;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: #A7BDD9;
+    transform: scale(1);
+    transition: all 200ms ease-in-out;
+}
+
+.nav-link:hover {
+    color: #41E1F2;
+    transform: scale(1.2);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+    color: #41E1F2;
+}
+
+.nav-link > .bi.bi-cart {
+    cursor: pointer;
+}
+
+
+footer {
+    color: #A7BDD9;
+    text-align: center;
+    padding-top: 3rem;
+    height: 120px;
+    width: 100%;
+    background-color: #395873;
+}
